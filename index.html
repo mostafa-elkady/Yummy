@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Start Animation -->
+    <div class="animation" id="animation">
+      <svg class="pl" viewBox="0 0 128 128" width="128px" height="128px">
+        <defs>
+          <linearGradient id="pl-grad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#000" />
+            <stop offset="100%" stop-color="#fff" />
+          </linearGradient>
+          <mask id="pl-mask">
+            <rect x="0" y="0" width="128" height="128" fill="url(#pl-grad)" />
+          </mask>
+        </defs>
+        <g stroke-linecap="round" stroke-width="8" stroke-dasharray="32 32">
+          <g stroke="hsl(193,90%,50%)">
+            <line class="pl__line1" x1="4" y1="48" x2="4" y2="80" />
+            <line class="pl__line2" x1="19" y1="48" x2="19" y2="80" />
+            <line class="pl__line3" x1="34" y1="48" x2="34" y2="80" />
+            <line class="pl__line4" x1="49" y1="48" x2="49" y2="80" />
+            <line class="pl__line5" x1="64" y1="48" x2="64" y2="80" />
+            <g transform="rotate(180,79,64)">
+              <line class="pl__line6" x1="79" y1="48" x2="79" y2="80" />
+            </g>
+            <g transform="rotate(180,94,64)">
+              <line class="pl__line7" x1="94" y1="48" x2="94" y2="80" />
+            </g>
+            <g transform="rotate(180,109,64)">
+              <line class="pl__line8" x1="109" y1="48" x2="109" y2="80" />
+            </g>
+            <g transform="rotate(180,124,64)">
+              <line class="pl__line9" x1="124" y1="48" x2="124" y2="80" />
+            </g>
+          </g>
+          <g stroke="hsl(283,90%,50%)" mask="url(#pl-mask)">
+            <line class="pl__line1" x1="4" y1="48" x2="4" y2="80" />
+            <line class="pl__line2" x1="19" y1="48" x2="19" y2="80" />
+            <line class="pl__line3" x1="34" y1="48" x2="34" y2="80" />
+            <line class="pl__line4" x1="49" y1="48" x2="49" y2="80" />
+            <line class="pl__line5" x1="64" y1="48" x2="64" y2="80" />
+            <g transform="rotate(180,79,64)">
+              <line class="pl__line6" x1="79" y1="48" x2="79" y2="80" />
+            </g>
+            <g transform="rotate(180,94,64)">
+              <line class="pl__line7" x1="94" y1="48" x2="94" y2="80" />
+            </g>
+            <g transform="rotate(180,109,64)">
+              <line class="pl__line8" x1="109" y1="48" x2="109" y2="80" />
+            </g>
+            <g transform="rotate(180,124,64)">
+              <line class="pl__line9" x1="124" y1="48" x2="124" y2="80" />
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <!-- End Animation -->
+    <!-- Start SideBar -->
+    <div class="sidebar">
+      <div class="sidebar-menu">
+        <ul class="d-flex flex-column links">
+          <li class="d-flex justify-content-between align-items-center position-relative" id="home">
+            <h5>Home</h5>
+            <i class="icon-home"></i>
+          </li>
+          <li class="d-flex justify-content-between align-items-center position-relative" id="search">
+            <h5>Search</h5>
+            <i class="icon-search"></i>
+          </li>
+          <li class="d-flex justify-content-between align-items-center position-relative" id="categories">
+            <h5>Categories</h5>
+            <i class="icon-search"></i>
+          </li>
+          <li class="d-flex justify-content-between align-items-center position-relative" id="areas">
+            <h5>Area</h5>
+            <i class="icon-location2"></i>
+          </li>
+          <li class="d-flex justify-content-between align-items-center position-relative" id="ingredients">
+            <h5>Ingredients</h5>
+            <i class="icon-ingredient"></i>
+          </li>
+          <li class="d-flex justify-content-between align-items-center position-relative" id="contact">
+            <h5>Contact us</h5>
+            <i class="icon-contact"></i>
+          </li>
+        </ul>
+        <div class="sidebar-footer">
+            <div class="icons">
+                <i class="icon-facebook"></i>
+                <i class="icon-twitter"></i>
+                <i class="icon-world"></i>
+            </div>
+            <p>Copyright Â© 2023 All Rights Reserved.</p>
+        </div>
+      </div>
+      <div class="sidebar-control">
+        <img src="logo.png" alt="logo" class="logo" />
+        <i class="icon-menu" id="showMenu"></i>
+        <div class="d-flex justify-content-between flex-column fs-2">
+          <i class="icon-world"></i>
+          <i class="icon-share"></i>
+        </div>
+      </div>
+    </div>
+    <!-- End SideBar -->
+    <!-- Start Content -->
+    <section id="searchInputs">
+      <div class="container">
+        <div class="row" id="searchview">
+
+        </div>
+      </div>
+    </section>
+    <section id="content" class="content">
+      <div class="container pt-5">
+        <div class="row" id="view">
+
+        </div>
+      </div>
+    </section>
+    <section class="test">
+
+    </section>
+    <!-- End Content -->
+    <!-- js -->
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
