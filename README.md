@@ -20,8 +20,10 @@ Once you've created an account, you can start browsing the recipe database, savi
 
 ## Contributing
 
-Yummy welcomes contributions from the community. If you have a delicious recipe you'd like to share, or if you'd like to provide feedback, bug reports, or suggestions for improvement, please visit the [Yummy GitHub repository](https://github.com/yummy-website/yummy) and follow the contributing guidelines.
+Yummy welcomes contributions from the community. If you have a delicious recipe you'd like to share, or if you'd like to provide feedback, bug reports, or suggestions for improvement, please visit the [https://github.com/mostafa-elkady/Yummy.git] and follow the contributing guidelines.
 
+## Live_Demo
+ https://mostafa-elkady.github.io/Yummy/
 ## Support
 
 If you encounter any issues or have questions about using Yummy, please don't hesitate to reach out to our support team at [support@yummy.com](mailto:support@yummy.com). We're here to help and ensure that you have the best possible experience on our website.
